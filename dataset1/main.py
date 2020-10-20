@@ -21,7 +21,7 @@ from sklearn.model_selection import GridSearchCV
 Store the necessary training/test set values into variables
 """
 (train_features, train_targets) = split_feats_targs('train_1.csv')   # pass training set with targets
-test_features = capture_features('test_no_label_1.csv', False)  # pass test set w/o targets
+test_features = capture_features('test_no_label_1.csv', False)  # pass test set without targets
 actual_targets = capture_targets('test_with_label_1.csv')    # pass test set with targets
 
 """
