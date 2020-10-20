@@ -1,5 +1,3 @@
-## COMP 472 - Assignment 1
-
 https://github.com/KonstH/comp472-a1.git
 
 How to run program
