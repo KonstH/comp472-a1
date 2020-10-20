@@ -37,3 +37,4 @@ Additional Notes
 
 - You might have noticed the folder dataset_demo. This is reserved for running the models on specific files provided during the assignment demo, and exporting their results
 - The `Best` type models all have some specific implementation notes added as comments in their respective code files
+- Points `2.3.a`, `2.3.b`, `2.3.c` and `2.3.d` in the assignment guidelines are all present in the output csv files
