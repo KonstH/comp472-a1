@@ -1,3 +1,9 @@
+"""
+Implementation and general notes:
+  • The parameters min_samples_split and min_impurity_decrease were difficult to analyse. Seems like smaller values are preferred
+  • The model often chose different hyperparemeters between runs. It seems inconsistent
+"""
+
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV
 from utils import split_feats_targs, capture_features, capture_targets, export_results

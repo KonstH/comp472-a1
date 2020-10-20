@@ -21,10 +21,10 @@ from sklearn.model_selection import GridSearchCV
 """
 Store the necessary training/test set values into variables
 """
-(train_features, train_targets) = split_feats_targs('train_1.csv')   # pass training set with targets
+(train_features, train_targets) = split_feats_targs('train_2.csv')   # pass training set with targets
 (val_features, val_targets) = split_feats_targs('val_2.csv')  # pass validation set
-test_features = capture_features('test_no_label_1.csv', False)  # pass test set w/o targets
-actual_targets = capture_targets('test_with_label_1.csv')    # pass test set with targets
+test_features = capture_features('test_no_label_2.csv', False)  # pass test set w/o targets
+actual_targets = capture_targets('test_with_label_2.csv')    # pass test set with targets
 
 """
 Run GNB model

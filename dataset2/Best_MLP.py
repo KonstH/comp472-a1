@@ -2,7 +2,7 @@
 Implementation notes:
   • Since assignment guidelines did not specify the amount of max iterations, the default of 200 is given. MLP will therefore not converge
   • We use the validation set for dataset 2 as opposed to training set like in dataset 1, because they have the exact same proportioning of
-    the datapoints, and it will save us some computation time.
+    the datapoints, and it will save us some computation time
 """
 
 from sklearn.neural_network import MLPClassifier
