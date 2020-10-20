@@ -24,10 +24,16 @@ Python modules used/required for this project:
 - `scikit-learn`
 
 ### Step 2 - Run Models / Generate files (multiple options)
-- To generate all outputs for `dataset1` at once, run the file: `dataset1/main.py`
-- To generate an output file for a single model, run the appropriate model file under `dataset1` folder
-  * **ex:** to run and generate output file for only GNB model, run: `dataset1/GNB.py`
+- To generate all output files for `dataset1` at once, run the file: `dataset1/main.py`
+- To generate a single output file for a specific model, run the appropriate model file under the `dataset1` folder
+  * **Ex:** to run and generate output file for only the GNB model, run: `dataset1/GNB.py`
   
-- To generate all outputs for `dataset2` at once, run the file: `dataset2/main.py`
-- To generate an output file for a single model, run the appropriate model file under `dataset2` folder
-  * **ex:** to run and generate output file for only GNB model, run: `dataset2/GNB.py`
+- To generate all output files for `dataset2` at once, run the file: `dataset2/main.py`
+- To generate a single output file for a specific model, run the appropriate model file under the `dataset2` folder
+  * **Ex:** to run and generate output file for only the GNB model, run: `dataset2/GNB.py`
+  
+Additional Notes
+---
+
+- You might have noticed the folder dataset_demo. This is reserved for running the models on specific files provided during the assignment demo, and exporting their results
+- The `Best` type models all have some specific implementation notes added as comments in their respective code files
