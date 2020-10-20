@@ -1,4 +1,5 @@
-dataset2
 *.csv
 ml_models
 Charts
+dataset_demo
+__pycache__

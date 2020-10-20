@@ -1,7 +1,7 @@
 import os
 import csv
 import numpy as np
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score 
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, accuracy_score
 curr_dir = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))) # Store current directory path
 
 
@@ -130,6 +130,6 @@ def export_results(real, pred, file_name):
   wa_f1 = ("%1.5f" % f1_score(real, pred, average='weighted', zero_division=1))
   f.write(wa_f1 + '\n')
 
-  print("All metrics have been successfully exported to " + file_name + "!")
+  print("All metrics have been successfully exported to " + file_name + "!\n")
 
   f.close()
