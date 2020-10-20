@@ -17,6 +17,12 @@ Directly inside of the `dataset2` folder, include the following files:
 - `test_with_label_2.csv`
 - `val_2.csv`
 
+Python modules used/required for this project:
+- `os`
+- `csv`
+- `numpy`
+- `scikit-learn`
+
 ### Step 2 - Run Models / Generate files (multiple options)
 - To generate all outputs for `dataset1` at once, run the file: `dataset1/main.py`
 - To generate an output file for a single model, run the appropriate model file under `dataset1` folder
